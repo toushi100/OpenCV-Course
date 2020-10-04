@@ -2,7 +2,7 @@ import cv2
 #Importing and displaying an image
 print("Package Imported")
 img = cv2.imread("image.jpg")
-img = cv2.sca
+img = cv2.resize(img,(400,300))
 cv2.imshow("Output Window", img)
 cv2.waitKey(0)
 
